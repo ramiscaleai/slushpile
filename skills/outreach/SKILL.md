@@ -3,6 +3,7 @@ name: outreach
 description: Open the warm channel for a role the pipeline already assessed. Finds who the user already knows at the company, researches named targets from public professional presence when they know nobody, grades each path honestly, drafts the ask through the voice agent, and writes the contacts into the Referrals table in job_search.md.
 argument-hint: "<role folder path>"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Outreach

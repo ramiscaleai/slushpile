@@ -3,6 +3,7 @@ name: onboard
 description: Set up a slushpile workspace. Ingests an existing resume or LinkedIn export, interviews the user to fill the gaps, then writes profile.md, preferences.yaml, and stories.md. Run once per workspace, before any other slushpile skill.
 argument-hint: "[path to an existing resume, LinkedIn export, or directory of materials]"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Onboard

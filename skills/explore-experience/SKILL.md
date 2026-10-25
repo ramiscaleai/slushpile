@@ -3,6 +3,7 @@ name: explore-experience
 description: Interview the user to surface experience that is real but undocumented, mapped against a specific role's requirements, then update the profile. Use when a fit assessment or an adversarial review flags a section as thin.
 argument-hint: "<role folder path or gap keywords>"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Explore Experience

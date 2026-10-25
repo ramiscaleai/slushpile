@@ -3,6 +3,7 @@ name: application-builder
 description: Build a targeted resume and cover letter for a role folder that already has a job description and role analysis. Runs iterative adversarial review rounds until the materials stabilize, then hands off for human review before submission.
 argument-hint: "<role folder path>"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Application Builder

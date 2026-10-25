@@ -3,6 +3,7 @@ name: status
 description: Read every application.yaml in the workspace and report the state of the search — the ranked queue, what is waiting on you, what has gone quiet, and the regression of the pipeline's own predictions against actual outcomes. Writes the calibration findings back into job_search.md and preferences.yaml.
 argument-hint: "[company or path to narrow the report]"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Status

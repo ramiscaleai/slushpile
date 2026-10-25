@@ -3,6 +3,7 @@ name: redesign-templates
 description: Redesign the resume and cover letter templates into your own house style. Changes typography, palette, and layout while holding the ATS constraints fixed, then proves the result still compiles and still extracts. Run any time; not a pipeline stage.
 argument-hint: "[a direction: a palette, a font, a reference PDF, or nothing]"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Redesign Templates

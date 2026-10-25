@@ -3,6 +3,7 @@ name: job-board-search
 description: Search a named company's careers board, or resolve a natural-language query into a company list and search each. Extract job descriptions, score pool-anchored and channel-conditional fit against the user's profile, run a contrarian gate before tiers are finalized, and create role folders with assessments. Updates the job search tracker.
 argument-hint: "<company> [role keywords] | <query describing the work and where>"
 license: MIT
+disable-model-invocation: true
 ---
 
 # Job Board Search

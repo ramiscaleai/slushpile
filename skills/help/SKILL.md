@@ -2,6 +2,7 @@
 name: help
 description: Explain what slushpile is, what each skill does, what order to run them in, where the workspace files live, and how to set up a voice agent. Use when the user asks how slushpile works, what to run next, or how to fix a workspace problem.
 license: MIT
+disable-model-invocation: true
 ---
 
 # Help
